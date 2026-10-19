@@ -22,6 +22,7 @@
 import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/+esm';
 const SUPABASE_URL='https://ymuctwbonaegjfzawvnv.supabase.co';
 const SUPABASE_PUBLISHABLE_KEY='sb_publishable_joChBiRlYDBgQQNp8C8Lqw_ThiQBRZF';
+const APP_VERSION='20261019-3';
 const db=createClient(SUPABASE_URL,SUPABASE_PUBLISHABLE_KEY);
 let user=null,profile=null,posts=[];
 const $=id=>document.getElementById(id);
